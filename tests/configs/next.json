@@ -1,0 +1,15 @@
+{
+    "database": {
+        "host": "localhost",
+        "user": "root",
+        "password": "password"
+    },
+    "app": {
+        "name": "My Application",
+        "version": "1.0.0"
+    },
+    "logging": {
+        "level": "debug",
+        "file": "/var/log/myapp.log"
+    }
+}
