@@ -1,0 +1,38 @@
+{
+    "name": "phpallas/config",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Sina Kuhestani",
+            "email": "sinakuhestani@gmail.com"
+        }
+    ],
+    "description": "A PHP component that manages application configurations, providing methods for reading, writing, and manipulating various configuration formats such as JSON, YAML, INI, and XML.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PHPallas\\Config\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^11",
+        "phpdocumentor/shim": "^3.7",
+        "onspli/phpdoc-markdown": "^0.3.3"
+    },
+    "require" : {
+        "php": ">=5.3",
+        "phpallas/utilities": ">=1.0",
+        "phpallas/abstract-types": ">=1.0",
+        "phpallas/buffer": ">=1.0"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit tests/"
+    },
+    "config": {
+        "allow-plugins": {
+            "phpdocumentor/shim": true
+        }
+    }
+}
